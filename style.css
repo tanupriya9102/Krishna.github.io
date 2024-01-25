@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+body, html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/Back.jpg');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.paper{
+  width: 25%;
+  min-height: 200px; 
+  position: absolute;
+  padding: 20px 10px; 
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px black;
+  background-image: url('images/paper-bg.jpg');
+  background-size: cover; 
+  background-position: center center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Tiro Devanagari Sanskrit', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  font-family: 'Rochester';
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.paper.Krishna {
+    background-image: url('images/KrishnaWise.jpg');
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover; 
+    background-clip: border-box; 
+    overflow: hidden; 
+    
+}
